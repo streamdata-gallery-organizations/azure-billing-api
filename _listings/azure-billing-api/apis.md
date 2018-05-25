@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Billing API
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,9 +24,9 @@ apis:
   tags: Billing Period
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiods-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billingbillingperiods-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiods-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billingbillingperiods-get-openapi.md
 - name: Azure Billing API Billing Periods Get
   x-api-slug: azure-billing-api
   description: Gets a named billing period.
@@ -36,9 +36,9 @@ apis:
   tags: Billing Period
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiodsbillingperiodname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billingbillingperiodsbillingperiodname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiodsbillingperiodname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billingbillingperiodsbillingperiodname-get-openapi.md
 - name: Azure Billing API Invoices List
   x-api-slug: azure-billing-api
   description: Lists the available invoices for a subscription in reverse chronological
@@ -50,9 +50,9 @@ apis:
   tags: Invoice
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillinginvoices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billinginvoices-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillinginvoices-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billinginvoices-get-openapi.md
 - name: Azure Billing API Invoices Get
   x-api-slug: azure-billing-api
   description: Gets a named invoice resource. When getting a single invoice, the downloadUrl
@@ -63,9 +63,9 @@ apis:
   tags: Invoice
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillinginvoicesinvoicename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billinginvoicesinvoicename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillinginvoicesinvoicename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billinginvoicesinvoicename-get-openapi.md
 - name: Azure Billing API Invoices Get Latest
   x-api-slug: azure-billing-api
   description: Gets the most recent invoice. When getting a single invoice, the downloadUrl
@@ -76,9 +76,9 @@ apis:
   tags: Invoice
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillinginvoiceslatest-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billinginvoiceslatest-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillinginvoiceslatest-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoft-billinginvoiceslatest-get-openapi.md
 - name: Azure Billing API Operations List
   x-api-slug: azure-billing-api
   description: Lists all of the available billing REST API operations.
@@ -88,9 +88,9 @@ apis:
   tags: Operation
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoftbillingoperations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoft-billingoperations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoftbillingoperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoft-billingoperations-get-openapi.md
 - name: Azure Billing API Usage Details List
   x-api-slug: azure-billing-api
   description: Lists the usage details for a scope in reverse chronological order
@@ -102,9 +102,9 @@ apis:
   tags: Usage
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/scopeprovidersmicrosoftconsumptionusagedetails-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/scopeprovidersmicrosoft-consumptionusagedetails-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/scopeprovidersmicrosoftconsumptionusagedetails-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/scopeprovidersmicrosoft-consumptionusagedetails-get-openapi.md
 - name: Azure Billing API Operations List
   x-api-slug: azure-billing-api
   description: Lists all of the available consumption REST API operations.
@@ -114,9 +114,9 @@ apis:
   tags: Operation
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoftconsumptionoperations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoft-consumptionoperations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoftconsumptionoperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/providersmicrosoft-consumptionoperations-get-openapi.md
 - name: Azure Billing API
   x-api-slug: azure-billing-api
   description: Use Azure Billing APIs to pull usage and resource data into your preferred

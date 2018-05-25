@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Billing API
-x-complete: 1
+x-complete: 0
 info:
-  title: ConsumptionManagementClient
-  description: consumption-management-client-provides-access-to-consumption-resources-for-azure-webdirect-subscriptions--other-subscription-types-which-were-not-purchased-directly-through-the-azure-web-portal-are-not-supported-through-this-preview-api-
+  title: Azure Billing API Operations List
+  description: Lists all of the available consumption REST API operations.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -184,4 +184,17 @@ paths:
           description: OK
       tags:
       - Operation
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
