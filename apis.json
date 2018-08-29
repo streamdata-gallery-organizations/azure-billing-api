@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Billing API",
+	"description": "This is a repository of azure billing api APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-billing-api.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-billing-api.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Billing API",
+			"x-api-slug": "azure-billing-api",
+			"description": "Use Azure Billing APIs to pull usage and resource data into your preferred data analysis tools. The Azure Resource Usage and RateCard APIs can help you accurately predict and manage your costs. The APIs are implemented as a Resource Provider and part of the family of APIs exposed by the Azure Resource Manager.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Billing API",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Billing API",
+	"include": [
+		{
+			"name": "Azure Billing API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-billing-api/master/_listings/azure-billing-api/apis.yaml"
+		}
+	]
+}
